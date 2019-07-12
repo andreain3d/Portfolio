@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  background: url("https://images.unsplash.com/photo-1545066165-158c63da9894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 0;
+}
+
+#about {
+  margin: 0;
+  background: #d1b8c5;
+  min-height: 100vh;
+}
+
+#portfolio {
+  margin: 0;
+  background: #392a3d;
+  min-height: 100vh;
+}
+
+#contact {
+  margin: 0;
+  background: #343a40;
+  min-height: 100vh;
+}
