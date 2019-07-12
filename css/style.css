@@ -9,10 +9,21 @@ html {
   margin-bottom: 0;
 }
 
+#intro {
+  padding-top: 15%;
+}
+
 #about {
   margin: 0;
   background: #d1b8c5;
   min-height: 100vh;
+}
+
+#profile-img {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background: #343a40;
 }
 
 #portfolio {
@@ -25,4 +36,9 @@ html {
   margin: 0;
   background: #343a40;
   min-height: 100vh;
+}
+
+#footer {
+  background: url("https://images.unsplash.com/photo-1545066165-158c63da9894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  height: 15vh;
 }
