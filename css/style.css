@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.jumbotron {
+  border-radius: 0;
+}
+
 #home {
   background: url("../images/background.jpg");
   background-size: cover;
@@ -37,6 +41,10 @@ html {
 .portfolio-item .btn-primary {
   background: #d1b8c5;
   border: 1px solid #343a40;
+}
+
+.portfolio-item .btn-primary:hover {
+  background: #e8ccda;
 }
 
 #contact {
